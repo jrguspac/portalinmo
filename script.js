@@ -40,6 +40,10 @@ document.getElementById('send-button').addEventListener('click', function() {
       link: 'construccion.html'
     }
   ]);
+
+  // Ocultar input y botón
+  document.getElementById('phone-input').style.display = 'none';
+  document.getElementById('send-button').style.display = 'none';
 });
 
 // Función para mostrar un mensaje en el chat
